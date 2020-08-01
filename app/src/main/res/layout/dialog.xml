@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/dialog_backage"
+    android:layout_height="match_parent">
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:verticalSpacing="1dp"
+        android:background="@color/zf0f0f0"
+        android:numColumns="4" />
+    <!--1.两列之间的间距。android:horizontalSpacing -->
+    <!--两行之间的间距。android:verticalSpacing  -->
+    <!--android:horizontalSpacing="5dp"-->
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#ffffffff"
+    android:gravity="center"
+    android:id="@+id/cancel"
+    android:textColor="@android:color/black"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:text="取消"/>
+</LinearLayout>
